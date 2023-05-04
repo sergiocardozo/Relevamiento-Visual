@@ -1,33 +1,49 @@
 ion-content {
-    --background: rgb(106, 4, 15);
-    --background: linear-gradient(126deg, rgba(106, 4, 15, 1) 8%, rgba(244, 140, 6, 1) 84%);
+    --background: #0D5D56;
 }
+
 ion-img {
-    
-    width: 9rem;
+
+    width: 3rem;
 }
-ion-header {
-    position: absolute;
+
+h2 {
+    color: #e5c2c0;
+    font-size: 1, 5rem;
 }
 
 ion-toolbar {
-    --ion-background-color: transparent;
-    opacity: 0;
+    --ion-background-color: #0D5D56;
 }
 
 ion-card {
     --ion-background-color: transparent;
-    box-shadow: none;
+    box-shadow: 8px 10px 10px 1px rgba(0,0,0,0.5);
 }
-ion-card-title {
-    color: #fff;
-    font-size: 2rem;
+
+p {
+    color: #8fd5a6;
+    font-size: 1,6rem;
+}
+h1 {
+    color: #e5c2c0;
+    font-size: 3rem;
     font-weight: bolder;
     text-shadow: 2px 2px 4px rgb(0, 0, 0);
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
+    
 }
-ion-card-subtitle{
+ion-card-title {
+    color: #e5c2c0;
+    font-size: 2rem;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    
+}
+
+ion-card-subtitle {
     padding-top: 10px;
     font-size: 11px;
     color: #898585;
@@ -36,41 +52,50 @@ ion-card-subtitle{
 }
 
 ion-item {
-    ion-icon, ion-input {
+
+    ion-icon,
+    ion-input {
         color: white;
+        --background: transparent;
     }
 }
+
 .signin-btns {
     margin-top: 15px;
     text-align: center;
-    color: #FFBA08;
+
     .ingresoRapido {
-        color: #03071E;
-        --ion-color-primary: #370617;
-      
+        color: #e5c2c0;
+        --ion-color-primary: #0C8346;
     }
 }
+
+
 .loginbtn {
-    --ion-color-primary: #370617;
+    --ion-color-primary: #0C8346;
 }
+
 hr {
     height: 3px;
     background-color: #FFBA08;
-  }
-  
+}
+
 
 .wrapform {
     margin-top: 20px;
 }
+
 .errors {
     font-size: small;
-	color: #FFBA08;
-	padding-left: 15px;
-	padding-top: 5px;
-	padding-bottom: 5px;
+    color: #FFBA08;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
+
 .password-forgot {
     text-align: right;
+
     ion-button {
         font-size: 12px;
         text-transform: initial;

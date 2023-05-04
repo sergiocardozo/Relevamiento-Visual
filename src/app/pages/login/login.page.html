@@ -1,23 +1,42 @@
 <ion-header class="ion-no-border">
   <ion-toolbar>
+    <div class="d-flex">
+      <ion-img src="../../../assets/icon.png" class="m-2"></ion-img>
+      <h2>Relevamiento Visual</h2>
 
+    </div>
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
-  <div class="d-flex flex-column align-items-center">
+<ion-content [fullscreen]="true" class="ion-padding">
 
-    <ion-card class="ion-no-margin">
+  <h1 class="text-center mt-5">Bienvenido</h1>
+  
+  <div>
 
-      <div class="d-flex justify-content-center mt-5 text-center">
-        <ion-img src="../../../assets/icon.png"></ion-img>
+    <div class="signin-btns mt-5">
+      <p><strong>Acceso Rápido</strong></p>
+      <ion-button fill="solid" shape="round" size="large" (click)="testLogin()" class="ingresoRapido">
+        <ion-icon name="person-circle-outline"></ion-icon>
+        Admin
+      </ion-button>
+      <ion-button fill="solid" shape="round" size="large" (click)="testLogin1()" class="ingresoRapido">
+        <ion-icon name="people-circle-outline"></ion-icon>
+        Invitado
+      </ion-button>
+      <ion-button fill="solid" shape="round" size="large" (click)="testLogin2()" class="ingresoRapido">
+        <ion-icon name="person-outline"></ion-icon>Usuario
+      </ion-button>
+    </div>
+  </div>
+  <div>
 
-      </div>
+    <ion-card class="ion-margin mt-5">
 
       <ion-card-header>
 
         <ion-card-title class="ion-no-margin">
-          Ingresar
+          Iniciar Sesión
         </ion-card-title>
 
       </ion-card-header>
@@ -46,7 +65,7 @@
                 <ion-item>
 
                   <ion-icon name="lock-closed-outline" class="me-1"></ion-icon>
-                  <ion-input formControlName="password" type="password" placeholder="Contraseña"></ion-input>
+                  <ion-input clearInput="true" formControlName="password" type="password" placeholder="Contraseña"></ion-input>
 
                   <div *ngIf="(password.dirty || password.touched) && password.errors" class="errors">
                     <span *ngIf="password.errors['required']">Ingresar contraseña</span>
@@ -58,13 +77,10 @@
               </div>
             </div>
           </form>
-          <!-- <div class="password-forgot">
-          <ion-button fill="clear" class="ion-no-padding" routerLink="/register">No tenes
-            cuenta?<strong>Registrate</strong></ion-button>
-          </div> -->
+
         </div>
         <div class="signin-btns">
-          <ion-button (click)="onLogin()" fill="solid" shape="round" class="loginbtn">Login</ion-button>
+          <ion-button (click)="onLogin()" fill="solid" shape="round" class="loginbtn mt-3">Ingresar</ion-button>
         </div>
 
         <div class="errors text-center">
@@ -72,19 +88,9 @@
         </div>
 
 
-        <hr class="mt-5">
-
-
-
-
       </ion-card-content>
     </ion-card>
-
-    <div class="signin-btns mt-5">
-      <p><strong>Acceso Rápido</strong></p>
-      <ion-button fill="outline" shape="round" (click)="testLogin()" class="ingresoRapido">Admin</ion-button>
-      <ion-button fill="outline" shape="round" (click)="testLogin1()" class="ingresoRapido">Invitado</ion-button>
-      <ion-button fill="outline" shape="round" (click)="testLogin2()" class="ingresoRapido">Usuario</ion-button>
-    </div>
   </div>
+
+
 </ion-content>

@@ -54,26 +54,14 @@
 
 ###
 
-<br clear="both">
-
-<div align="center">
-  <img height="250" src="https://github.com/sergiocardozo/Relevamiento-Visual/assets/52476421/68266000-1fd9-4ea5-9cf1-7a7b65628ddd"  />
-</div>
+<img align="left" height="250" src="https://github.com/sergiocardozo/Relevamiento-Visual/assets/52476421/68266000-1fd9-4ea5-9cf1-7a7b65628ddd"  />
 
 ###
 
-<br clear="both">
-
-<div align="center">
-  <img height="250" src="https://github.com/sergiocardozo/Relevamiento-Visual/assets/52476421/29443739-652d-4e03-82ba-432cdd1e9824"  />
-</div>
+<img align="left" height="250" src="https://github.com/sergiocardozo/Relevamiento-Visual/assets/52476421/29443739-652d-4e03-82ba-432cdd1e9824"  />
 
 ###
 
-<br clear="both">
-
-<div align="center">
-  <img height="250" src="https://github.com/sergiocardozo/Relevamiento-Visual/assets/52476421/d2977076-9ed5-4fd9-b2b7-e079076e9a02"  />
-</div>
+<img align="left" height="250" src="https://github.com/sergiocardozo/Relevamiento-Visual/assets/52476421/d2977076-9ed5-4fd9-b2b7-e079076e9a02"  />
 
 ###

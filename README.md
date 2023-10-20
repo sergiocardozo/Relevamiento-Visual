@@ -54,8 +54,6 @@
 
 ###
 
-<br clear="both">
-
 <img align="left" height="400" src="https://github.com/sergiocardozo/Relevamiento-Visual/assets/52476421/68266000-1fd9-4ea5-9cf1-7a7b65628ddd"  />
 
 ###
@@ -64,7 +62,7 @@
 
 ###
 
-<div align="center">
+<div align="left">
   <img height="400" src="https://github.com/sergiocardozo/Relevamiento-Visual/assets/52476421/d2977076-9ed5-4fd9-b2b7-e079076e9a02"  />
 </div>
 
